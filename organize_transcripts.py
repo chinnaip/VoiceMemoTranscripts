@@ -272,6 +272,38 @@ def save_processed_index(processed: set, dry_run: bool):
     PROCESSED_INDEX.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
+def _commit_pending(dry_run: bool, newly_extracted: list, written: list, counts: dict, processed: set):
+    """Stage and commit all pending work: new raw transcripts + organized files + index."""
+    if dry_run:
+        return
+
+    save_processed_index(processed, dry_run)
+    print("\n  Staging and committing...")
+    git_run("add", "transcripts/")  # new raw .txt files + updated .processed_index
+    for cat in CATEGORIES:
+        if (REPO_ROOT / cat).is_dir():
+            git_run("add", cat, fatal=False)
+
+    staged = git_run("diff", "--cached", "--name-only", fatal=False)
+    if not staged:
+        print("  Nothing to commit.")
+        return
+
+    n_raw = len(newly_extracted)
+    n_org = len(written)
+    msg_parts = []
+    if n_raw:
+        msg_parts.append(f"Add {n_raw} transcript(s) from Voice Memos")
+    if n_org:
+        msg_parts.append(
+            f"Organize {n_org} transcript(s) — categorize, title, clean\n\n"
+            f"college: {counts['college']}  work: {counts['work']}  other: {counts['other']}"
+        )
+    git_run("commit", "-m", "\n\n".join(msg_parts) or "Update transcripts")
+    git_run("push", "origin", "main")
+    print("  Done — committed and pushed.\n")
+
+
 def process_transcript(client: anthropic.Anthropic, content: str) -> dict:
     """Call Claude API and return {category, title, cleaned}."""
     message = client.messages.create(
@@ -310,14 +342,10 @@ def phase2_organize(dry_run: bool, limit: int, newly_extracted: list, client: an
     to_process = [p for p in all_transcripts if p.name not in processed]
 
     if not to_process:
-        print("  Nothing new to organize.\n")
-        # Still write the index if we just bootstrapped it
-        if bootstrapped and not dry_run:
-            save_processed_index(processed, dry_run)
-            git_run("add", str(PROCESSED_INDEX.relative_to(REPO_ROOT)))
-            git_run("commit", "-m", "Initialize .processed_index for transcript tracking", fatal=False)
-            git_run("push", "origin", "main", fatal=False)
-            print("  Bootstrapped .processed_index committed.\n")
+        print("  Nothing new to organize.")
+        # Still run the commit step — picks up any organized files that were written
+        # but not committed in a previous failed run, and any newly extracted transcripts.
+        _commit_pending(dry_run, newly_extracted, [], {cat: 0 for cat in CATEGORIES}, processed)
         return
 
     if limit:
@@ -375,36 +403,7 @@ def phase2_organize(dry_run: bool, limit: int, newly_extracted: list, client: an
         print("\n  Dry run complete — nothing written.")
         return
 
-    if not written:
-        print("\n  Nothing new to commit.")
-        return
-
-    # Stage everything: new raw transcripts + organized files + index
-    save_processed_index(processed, dry_run)
-    print(f"\n  Staging and committing...")
-    git_run("add", "transcripts/")  # picks up new .txt files and updated index
-    for cat in CATEGORIES:
-        cat_path = REPO_ROOT / cat
-        if cat_path.is_dir():
-            git_run("add", cat, fatal=False)
-
-    # Guard: only commit if something is actually staged
-    staged = git_run("diff", "--cached", "--name-only", fatal=False)
-    if not staged:
-        print("  Nothing staged — skipping commit.")
-        return
-
-    n_raw = len(newly_extracted)
-    msg_parts = []
-    if n_raw:
-        msg_parts.append(f"Add {n_raw} transcript(s) from Voice Memos")
-    msg_parts.append(
-        f"Organize {len(written)} transcript(s) — categorize, title, clean\n\n"
-        f"college: {counts['college']}  work: {counts['work']}  other: {counts['other']}"
-    )
-    git_run("commit", "-m", "\n\n".join(msg_parts))
-    git_run("push", "origin", "main")
-    print("  Done — committed and pushed.\n")
+    _commit_pending(dry_run, newly_extracted, written, counts, processed)
 
 
 # ---------------------------------------------------------------------------
@@ -437,17 +436,10 @@ def main():
 
     if not args.skip_organize:
         phase2_organize(args.dry_run, args.limit, newly_extracted, client)
-    elif newly_extracted and not args.dry_run:
+    elif newly_extracted:
         # extract-only: commit just the new raw transcripts
-        print(f"\nCommitting {len(newly_extracted)} new transcript(s)...")
-        git_run("add", "transcripts/")
-        staged = git_run("diff", "--cached", "--name-only", fatal=False)
-        if staged:
-            git_run("commit", "-m", f"Add {len(newly_extracted)} transcript(s) from Voice Memos")
-            git_run("push", "origin", "main")
-            print("Committed and pushed.")
-        else:
-            print("Nothing staged — skipping commit.")
+        _commit_pending(args.dry_run, newly_extracted, [], {cat: 0 for cat in CATEGORIES},
+                        load_processed_index())
 
 
 if __name__ == "__main__":
