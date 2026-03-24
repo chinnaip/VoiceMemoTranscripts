@@ -235,14 +235,6 @@ def phase1_extract(dry_run: bool) -> list:
     print(f"  No transcript    : {skipped_no_transcript}")
     print(f"  New transcripts  : {len(new_files)}")
 
-    if not dry_run and new_files:
-        print(f"\n  Committing {len(new_files)} new transcript(s)...")
-        for fn in new_files:
-            git_run("add", f"transcripts/{fn}")
-        git_run("commit", "-m", f"Add {len(new_files)} transcript(s) from Voice Memos")
-        git_run("push", "origin", "main")
-        print("  Committed and pushed.")
-
     print()
     return new_files
 
@@ -379,24 +371,38 @@ def phase2_organize(dry_run: bool, limit: int, newly_extracted: list, client: an
     if errors:
         print(f"  errors  : {len(errors)} (saved as-is in other/)")
 
-    if dry_run or not written:
-        if dry_run:
-            print("\n  Dry run complete — nothing written.")
-        else:
-            print("\n  Nothing to commit.")
+    if dry_run:
+        print("\n  Dry run complete — nothing written.")
         return
 
-    # Write updated index and commit everything
+    if not written:
+        print("\n  Nothing new to commit.")
+        return
+
+    # Stage everything: new raw transcripts + organized files + index
     save_processed_index(processed, dry_run)
-    print(f"\n  Committing {len(written)} organized file(s) + updated index...")
+    print(f"\n  Staging and committing...")
+    git_run("add", "transcripts/")  # picks up new .txt files and updated index
     for cat in CATEGORIES:
         cat_path = REPO_ROOT / cat
-        if cat_path.is_dir() and any(cat_path.iterdir()):
+        if cat_path.is_dir():
             git_run("add", cat, fatal=False)
-    git_run("add", str(PROCESSED_INDEX.relative_to(REPO_ROOT)))
-    git_run("commit", "-m",
-            f"Organize {len(written)} transcript(s) — categorize, title, clean\n\n"
-            f"college: {counts['college']}  work: {counts['work']}  other: {counts['other']}")
+
+    # Guard: only commit if something is actually staged
+    staged = git_run("diff", "--cached", "--name-only", fatal=False)
+    if not staged:
+        print("  Nothing staged — skipping commit.")
+        return
+
+    n_raw = len(newly_extracted)
+    msg_parts = []
+    if n_raw:
+        msg_parts.append(f"Add {n_raw} transcript(s) from Voice Memos")
+    msg_parts.append(
+        f"Organize {len(written)} transcript(s) — categorize, title, clean\n\n"
+        f"college: {counts['college']}  work: {counts['work']}  other: {counts['other']}"
+    )
+    git_run("commit", "-m", "\n\n".join(msg_parts))
     git_run("push", "origin", "main")
     print("  Done — committed and pushed.\n")
 
@@ -431,6 +437,17 @@ def main():
 
     if not args.skip_organize:
         phase2_organize(args.dry_run, args.limit, newly_extracted, client)
+    elif newly_extracted and not args.dry_run:
+        # extract-only: commit just the new raw transcripts
+        print(f"\nCommitting {len(newly_extracted)} new transcript(s)...")
+        git_run("add", "transcripts/")
+        staged = git_run("diff", "--cached", "--name-only", fatal=False)
+        if staged:
+            git_run("commit", "-m", f"Add {len(newly_extracted)} transcript(s) from Voice Memos")
+            git_run("push", "origin", "main")
+            print("Committed and pushed.")
+        else:
+            print("Nothing staged — skipping commit.")
 
 
 if __name__ == "__main__":
