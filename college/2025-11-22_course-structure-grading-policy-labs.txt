@@ -1,0 +1,21 @@
+There are 3 graded assignments. Whatever we learn in the classes will be covered in the same graded assignments. We have 3 labs to complete first. Then in the 4th lab, we'll have a breeding lab. The instructor will notify about that. In that lab, we'll have a gated lamp based on what we've done in those 3 or 4 previous labs. There's also an exam.
+
+Student: Sir, I just joined. For other subjects, we have a plan for all the classes. Do you have any sort of PDF for what we're going to be covering?
+
+Instructor: Yes, I'll be uploading every point related to what I present here and all associated documents to your LMS platform.
+
+So today we discussed the things we're going through. Basically, each of the labs will carry certain weight, and assessments will be carried out according to the grading policy we discussed. What's to be expected: from 10:45 to 11:45, the class will happen on the theoretical side, and from 2 to 4, that will be the practical side.
+
+Student: Is that something like a syllabus you're going to share or publish?
+
+Instructor: Yes, the syllabus is available. Lab 1 will consist of data setup, data handling, and data visualization. You're already familiar with these from your previous data systems lab that you've completed. Based on that, I've created a problem set.
+
+Student: Do we have a syllabus for the whole semester like other subjects?
+
+Instructor: Yes, I just discussed it. I'll upload the syllabus, the associated PDFs, and I've also uploaded Lab 1. The grading policy is mentioned in the syllabus PDF.
+
+Student: And for the dreaded lab, what will be the duration?
+
+Instructor: The duration will be like this: the afternoon session will be taken based on whatever problem formulation you need to solve. The morning half won't be taken, or if it is, we'll do some discussion classes. In the afternoon, there will be the lab. Two hours will be given. Based on that, you complete it, compile it, and submit it.
+
+Student: Sir, and in special cases, if people have some problems or family urgency or other things...

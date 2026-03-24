@@ -1,0 +1,76 @@
+Detailed speaker notes designed specifically for your MTech Data Science context and bank regulatory FINRA CAT audience. It is structured so you can directly convert each slide into PowerPoint, add screenshots later, and also defend it confidently before an academic committee. I've tailored examples, prompts, and metrics to CAT error detection, event correlation, and root cause analysis, aligning with how a regulatory data team actually works.
+
+Test AI-enhanced literature review for proactive error detection, event correlation, and root cause analysis in FINRA CAT.
+
+Section One: Title Slide One to Three
+
+Slide One - Slide Title: AI Assisted Literature Review for FINRA CAT Error Detection and Root Cause Analysis
+
+Subtitle: Leveraging AI and research tools to accelerate academic regulatory research
+
+Presenter: Prabakar C., MTech Data Science, Regulatory Reporting, Banking Domain
+
+Speaker Notes: Introduce dual context—academic research and real regulatory systems. Emphasize FINRA CAT scale: billions of events with strict T+1 and T+3 timelines. State goal: show process, not just results.
+
+Visual Suggestions: Blue-gray corporate template, icons for AI and CAT, lifecycle watermark.
+
+Slide Two - Agenda and Roadmap
+
+Agenda:
+1. Problem context and research objectives
+2. Traditional versus AI-enhanced review
+3. AI-driven search strategy
+4. Literature discovery tools
+5. Paper management
+6. AI-powered analysis
+7. Report generation
+8. Results and metrics
+9. Best practices
+10. Conclusion and Q&A
+
+Speaker Notes: Emphasize the end-to-end journey. Mention live demo-style walkthroughs. Visual: horizontal progress bar with 10 steps and animated section highlight.
+
+Slide Three - Problem Statement and Objectives
+
+Problem Statement:
+FINRA CAT generates complex, multi-stage errors. Manual RCA is time-consuming, fragmented, and reactive.
+
+Research Objectives:
+- Study proactive error detection
+- Analyze error event correlation
+- Identify root cause analysis methods
+- Map gaps and AI opportunities
+
+Speaker Notes: Give example—memo mismatch due to upstream reference data. Highlight academic plus operational relevance.
+
+Section Two: Traditional versus AI-Enhanced Review, Slides Four and Five
+
+Slide Four - Manual versus AI-Enhanced Literature Review
+
+Aspect | Traditional | AI-Enhanced
+Search Time | Days | Minutes
+Coverage | Narrow | Broad, cross-domain
+Gap Identification | Manual | AI-assisted
+Iterations | Limited | Rapid
+
+Speaker Notes: Stress repeatability. Explain why compliance research benefits most. Visual: before-after split layouts.
+
+Slide Five - AI-Enhanced Literature Review Workflow
+
+Workflow stages: Search → Discover → Organize → Analyze → Synthesize
+
+Speaker Notes: Emphasize the closed feedback loop. Mention human validation remains essential.
+
+Section Three: Search Strategy with AI, Slides Six to Nine
+
+Slide Six - AI for Research Question Decomposition
+
+Tools: ChatGPT, Claude
+
+Example Prompt: You can see the code in our conversation history.
+
+AI Output Themes:
+- Anomaly detection
+- Event correlation
+- Data lineage
+- Regulatory requirements

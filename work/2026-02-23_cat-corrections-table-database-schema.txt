@@ -1,0 +1,1 @@
+The cat corrections table will have these columns: UUID, tracking ID, PTC JSON, correction action, business date, system date, timestamp, and validation. The latest tracking ID, system date, and timestamp along with a UUID match determines whether to update a value from the database.

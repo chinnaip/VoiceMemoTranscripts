@@ -1,0 +1,25 @@
+It's a nice office, actually. Okay, let's get started. So far we have the short sale reporting. What else is pending from our standpoint now?
+
+Nothing else is pending. We've already submitted it to them—the exception report as well as the ledger. Sajana said she would review, and in fact, she did review the call with us as well. She seems fine with it. I've also sent her statistics, and we're just waiting for any VAR support items that come up. Is that all they need?
+
+Okay, so if you guys met with her again separately, was that after that call?
+
+Yeah, no—that call you were on was the final call. After that, I just sent over the statistics broken down by business day. After which I gave the conclusion that we would probably need another call with the F guys to go over it, but otherwise it should be fine.
+
+Okay, so let's do one favor in that case. Let's schedule a run-on call with her, right? Today or tomorrow if possible, if not early next week, just to make sure one, she's clear that this program is completed—that the mini project is completed. And second, she also mentioned that the logic needs to be looked at from both directions. Currently, we only look at short cell incorrect markings, right? So if she thinks that is still going to be part of the requirement, let's make those changes in the production version and then we just close this project out.
+
+Yeah, let's close the project out in a formal way as well, right? One way is a handover, similar to ABS. I think we should just send out to Sanjan and Dave saying, you know, like we think this closes it—let us know if there is anything else that you're expecting. Are you okay with your people?
+
+Yeah, understood.
+
+Okay, Maran, do you want to go next? Are you sharing the screen?
+
+Yeah, I will. I'm sharing my screen. I'll start with this. Does anyone want to talk about this? This project is long now.
+
+Yeah, Bitjit, come back to your ears. Asking people, did you get time for a couple of days, right? Was it related to EQS?
+
+It was related to business, so there were a couple of exceptions that Mike Francis was not able to see in the report that we generate. Exactly the places where the fixes need to be applied as well, and he's on board with them, so I think he'll try those fixes.
+
+Okay. Status deck updated—looks like it's three months old.
+
+Oh, sure, sure. Okay, small. Uh, 605, 606 migration. I think the update is pretty much the same as I mean, we discussed on Tuesday. I think the broad parallel testing they have started, but we were supposed to complete the review and results by say the 27th was our target date, of which I don't think we have completed. So I have put it under risk, and as a result, I mean, to get a sign-off on the 1st of September also becomes a challenge.

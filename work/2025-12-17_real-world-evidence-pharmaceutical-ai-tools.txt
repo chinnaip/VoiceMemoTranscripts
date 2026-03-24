@@ -1,0 +1,11 @@
+The maximum evidence relies on clinical trials, but now many companies are utilizing real world data generated from claims, EHR, and other sources. I want to do something similar here in India. In other countries and western nations, they have already started a lot of work in the real world evidence domain. But in India, it's still a new thing. So I thought of doing something in this direction, combined with my experience and work in this area.
+
+Just to clarify, if you are working in any industry, you might have very little knowledge, or you may have knowledge, but it's distorted. You might be working on a specific part but may not have end-to-end working experience or a holistic overview picture. So to gain that, or I should say, to become a domain expert, I started this work.
+
+I like to share my screen, but it seems frozen. Let me try again. Yes, this is visible. Thank you. Okay, so to deepen my domain knowledge in real world evidence within the pharmaceutical landscape, let me give you some context. Real world data is different from RCT or randomized clinical trials. It's data that has been created through different surveys, electronic health records, clinical claims records, or registries. Utilizing all these things generates evidence that can support various phases of the drug life cycle.
+
+To understand this, deepen my knowledge, and learn what AI tools can help me accelerate my exploration and research, I've read four books. One is by Professor Raja, another is "AI Revolution in Medicine" by Peter Lee, then "Real World Evidence in Pharmaceutical Landscape," and the last one is "Healthcare Data Analytics," just to connect the dots and deepen my understanding.
+
+After all this research, I created a process flow based on my understanding. I found that there are activities done in steps: first is scoping, then protocol writing, then data science and analytics, reporting, maintenance, and finally publications. Throughout my exploration, I tried to understand all the activities involved in each step and what AI tools are already available in the market through literature searches, web searches, and other research activities.
+
+As you can see, in the scoping part, some of the tools like Galaxy AI, minis, and other AI tools are used for...

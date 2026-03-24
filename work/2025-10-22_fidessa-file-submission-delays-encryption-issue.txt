@@ -1,0 +1,15 @@
+Dennis mentioned that Fidessa had some delays with files coming in. There was one Fidessa file that essentially was not submitted on Monday. The whole reason for these errors is that those guys reported we didn't do a report, and that's what's causing the issue.
+
+I also read a message that this file has been submitted, right? The file was sent over to us, but there is some manual work that needs to be done in order to process that file in BDC and then send it over. That file I sent over last night. I don't know if the file has processed it, but we'll know by today.
+
+You can attach the same file that Dave sent over in the technology group side regarding this Fidessa file and the same message that he posted. The CSV files were not getting delivered properly to our internal encryption server yesterday, which delayed the server entry into Jeffries. This response that David sent over is from the Fidessa team.
+
+First, the Fidessa team had an internal encryption issue that caused the files to be delayed to our local server. That's what caused the delays and the issue with the reporting in general.
+
+Should we send that to you? Yeah, I'll do that. You should send it to me and needs to change that. I think that's some logic that should be corrected, right? No, I don't think this is an issue on our side based on what Dennis is mentioning. Based on what RA is mentioning, the raft has some comment at the end that corresponds to the EDR. I think what we reported is correct. So this is most likely an issue on RA's side for them to fix, not us.
+
+Then again, we're also receiving N issues. Is it related to the same traffic? Yes, yes, yes. My change is now Friday. RA, do we have any updates? I haven't seen anything coming from them. We should follow up and they're supposed to actually make a change. Yeah, we should follow up. I already picked up the follow-up on May today. Yeah, again, we should just keep being annoying to them until they give us tapes that we can track and test results that we can see. Recently, we don't think they're taking a long time to make their changes. I want to make sure that at least there is communication going on from our side. They can take as long as they want, but we should be sending our messages regarding it.
+
+Gord and I are trying to talk to them. MSTX also—should I send the follow-up to Sanjay on the T engine because they're receiving errors? You're receiving more errors next week. Reach out to them. You also haven't received a response from them, right? Because they're also under maintenance right now on their side. Correct, correct, correct.
+
+Okay, I can fix this. On inquiries typing curve, we will need to update the tickets.

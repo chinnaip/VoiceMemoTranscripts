@@ -1,0 +1,13 @@
+Hey agent, I set up a 30-minute meeting today with Diljit at 10. That works perfectly for you? Great. Hello, how are you? Good, thank you. How are you?
+
+So talking about the inquiries, part of what I think are subsequent events that have been criticized and acknowledged—they've raised tickets on their site for fixes. However, the current fixes haven't gone out yet, but because there's a ticket, we expect the change to happen this week and then we'll close this inquiry out. We have closed the 2025 KAT review. I think there was a response submitted by our legal team and I've verified it.
+
+For the third piece, which is the formal inquiry, we've been picking it up piece by piece for different kinds of queries. As you can see now, we're almost through 5 PELF. The work is almost done. By the end of this week, I think we should be through with this inquiry also.
+
+Currently, just a quick update on that one as well—what you said is correct. We're testing all of the submissions in production for the largest packet we have. We faced some issues in previous phases, which led to more errors on some submissions. Looking at the feedback, we've made some changes and the plan is to have that completed by this weekend.
+
+The last piece from the 100 Ware agency was 150 million. We are going to submit it this week. Is that correct? Yes. We have almost submitted and gotten feedback, so now based on that feedback, we're updating our corrected submission.
+
+And we opened the FRA case for this, right? Correct, correct. FRA cases are open for pretty much all submissions we've done from a backdated perspective. The plan is the 140 million goes out over the weekend, not even on Friday on our side. After all processing and shuffles, FR will engage after submissions of the files.
+
+And on the last piece, agency was the principal discrepancy. FIS has made the change on their site, so it's complete. We do have to verify whether the change is being reflected or not, and I think we can verify it today. This should also be good to close—principal agency affiliate, those are two different issues. Actually, it was the same issue, but it wasn't principal versus agency. It was affiliate versus agency, Daljit. Foreign brokerage versus agency. And actually, maybe Manan could also be right in terms of that, because the whole issue here is Fidessa had no markings on some of their books in terms of systems. They didn't even give us a field in KAT to represent the account holder or the account. And because of that, just with the post-processing...

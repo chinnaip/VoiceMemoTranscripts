@@ -1,0 +1,39 @@
+Flow, tools, value. Slide 10 is a 7-minute live demo. It's explicitly designed as a demo anchor slide where you switch from PowerPoint to a browser, ChatGPT, and Scholar.
+
+Suggested speaking flow:
+
+Slides 1 to 2 (1 minute): Who you are and why Cat Arrow researches hard. Why does AI matter in a regulatory academic context?
+
+Slides 3 to 4 (1.5 minutes): Research objectives—manual versus AI review comparison. Emphasize time, coverage, and gap discovery.
+
+Slides 5 to 6 (1.5 minutes): End-to-end AI workflow. How AI helps in search strategy design.
+
+Slides 7 to 8 (1.5 minutes): Walk through tools quickly. Stress tool combination, not a single tool.
+
+Slide 9 (1 minute): AI-powered analysis. Transitional: "Now I'll show how this actually works in practice."
+
+Slide 10 (7 minutes): Live demo script. Use exactly this in your demo.
+
+Demo Step 1 (search decomposition): Prompt ChatGPT. You can see the code in our conversation history. Explain error detection, event correlation, root cause analysis, and regulatory constraints.
+
+Demo Step 2 (paper summarization, 2 minutes): Upload one paper PDF or abstract. Prompt—you can see the code in our conversation history. Explain how this replaces manual note-taking.
+
+Demo Step 3 (comparison table): Prompt—you can see the code in our conversation history. Explain traditional versus ML versus graph-based approaches. Why do CAT errors need correlation, not just detection?
+
+Demo Step 4 (gap identification, 1 minute): Prompt—you can see the code in our conversation history. Tie gap to your future thesis direction.
+
+Why this presentation will score well with your committee:
+- Shows process, not AI hype
+- Demonstrates academic rigor plus industry relevance
+- Clear human-in-the-loop validation
+- Strong alignment with regulatory analytics
+- Clean, defendable narrative for Q&A
+
+If you want next steps recommended:
+1. Add speaker notes slide by slide
+2. Add visual diagrams (CAT lifecycle, error flow)
+3. Customize exactly to your 3T university rubric
+4. Create a one-page viva cheat sheet
+5. Prepare Q&A answers professors usually ask
+
+Just tell me what you want to do next.

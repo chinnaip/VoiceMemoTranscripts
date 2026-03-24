@@ -1,0 +1,13 @@
+We need to update the client account or client pay information. This is a small change in the correction process, and we're trying to push more control to their side in terms of identifying issues.
+
+So regarding the inquiry—I know we had a draft about historical notifications. We thought we notified them about the dates when we completed them. Part of it was just a tidier from them, and there were a few items left where we were still in the process of ending our corrections. Is this still the same topic, or is there a new inquiry coming?
+
+Yes, what you're mentioning is the formal inquiry. The formal inquiry is fully completed, even from a historical correction standpoint. These two that Mannans just mentioned are informal inquiries that came in separately from the formal inquiry. We keep getting inquiries every now and then, so this is not related to that big formal inquiry.
+
+Understood. That's a good start. For the FDID review, it's new—we haven't started it yet. The formal inquiry that's been completely completed is one thing, and the missing subsequent events is a new one.
+
+They call them informal inquiries, so they just ask questions. If they see any anomalies or suspect something, they come to us and ask questions. These are informal, not formal inquiries. Finra also asks questions based on looking at our data. Regarding missing subsequent events, the specific events called out here are optionally reportable. Jeffries has taken the option to report them. In one specific flow, when an order moves from US to EU during off-market hours, Fitness found a bug where they're not creating a route indicating it's going from US to EU. This doesn't result in any breaks or errors because of how the scenario works, but we're missing a terminating event essentially.
+
+Are these the type of things that ideally we should be able to capture as we build a repository of things we can check and have controls in place?
+
+Yes, so at least a validation for this is looking through the audit trail we have on our side and ensuring that it ends in a terminating event. Our terminating event could be a route, an execution, or a cancellation. If any of those three criteria are met...

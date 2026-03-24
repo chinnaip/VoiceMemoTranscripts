@@ -1,0 +1,15 @@
+I raised both, but really it should just be factored, you know, 10 into LTR and 10 into UTR. And so that was an example of one of the things that they raised as an issue, right? Here it says UTR 82, but it should really be 92, right? Because these combo alerts are being factored separately when really they should be broken down.
+
+Okay, these are the same exact thing. Alert scenarios pie chart. Alert for supervisor—you know, how many are open and closed per supervisor and unassigned, and things like that. There's also filters, right? Let's see what else is there.
+
+The other one that they were really interested in is average daily alert trends, right? Average monthly alert trends, right? So there are certain alerts that happen on a monthly basis, certain alerts that happen on a daily basis. This is a pretty good representation of the daily ones: HYB, UTR, HSW, LAPLST. Um, this has the same problem, right? HYB, like UTR and... Yep. Okay, okay. Yep, same exact thing.
+
+Monthly alerts: SSC men, SSC—those are monthly alerts. These are just separated by years, 2025 versus 2026. And then these are alerts based on Albuquerque. I don't know how important this one is, but this is another graph. The name of the broker—is it? I'm not too sure because I'm not familiar with these codes. This is the first for me, although it might be... Exactly where you're saying, different brokers. So like when wealth management routes to a particular broker, it might be raising a lot of alerts against that broker.
+
+Yeah, I think the brokers are given me these identifiers. Those are the broker keys, which get a tender. I'm just surprised that there's only maybe about 10 of them, right? If it's prime brokers, I'd imagine hundreds. But I, you know, that's why the investment advisors, right? Yes, not too sure. Maybe that's something I could ask our June. We could come back to that one.
+
+The closure alerts dashboard is really an important one that they've talked about a couple of times. So now they want to see who's closing out the most alerts, who's attacking the most alerts, of which alerts are being attacked the most, right? So this—as opposed to alert generation date—they want to look at alert closed dates. You know, how many alerts were closed within the month of January? That sort of insight.
+
+And yeah, I mean, I think most of the details here are pretty straightforward. Okay, building a UI, shit, like if you use Claud or any of those—what is the other one? Bolt—they're amazing at building front ends. You just obviously need some sort of data to display and customize the charts, but...
+
+Now, one thing here with this late alerts trend, right? This is straightforward, but it means alerts that are raising on a daily basis should be addressed within one week. So that's this SLA, right? Within SLA. And these entire...

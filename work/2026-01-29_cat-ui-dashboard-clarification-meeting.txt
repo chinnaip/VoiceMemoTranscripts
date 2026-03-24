@@ -1,0 +1,47 @@
+Hey Anand, Happy New Year, sir. How are you?
+
+Yeah, happy New Year. I'm good. How are you?
+
+Good, sir, good. How are things going? You sit on the same floor. I think Kisle is also in the office. Is he nearby around you?
+
+No, it's on the other side actually.
+
+Oh, I see. Okay. Nice. So what are the clarification doubts on this CAT report? Um, initially we were asking whether we are supposed to show a tab and then on that tab we need to have some search field or search text to go by a particular field. There are two more actually, but I just need to see your opinion on those as well. Let me just ask Jesus.
+
+Hey, this is Jesus.
+
+Hey, hey, how are you?
+
+Hey, I'm doing good. How are you doing, Amanda?
+
+Yeah, I'm good. Are you in the office today?
+
+Yeah, we have an office today. How bad is it in Jersey City with all the ice and stuff? I'm sure a lot of people aren't going into the office. It must be terrible to get around.
+
+Yeah, the first two days, we didn't come. They suggested not to come.
+
+Yeah, it's bad. I think there's going to be even more snow this weekend. That's what the expectation is. The first prediction says that coming Sunday again, it will be bad.
+
+Beautiful. Yeah. So Jesus, where are you? You're not in Jersey City, right?
+
+No, no, no. I'm in Washington, DC, or at least that's the closest city to me. It's about a four-hour drive.
+
+I see. Okay. Yeah, so I don't go into the Jersey City office very often, but every two or three months I go into the office and see people. It's not a bad thing.
+
+I see, it makes sense. So you're not much different from me working remote.
+
+Yeah, yeah, yeah. It's the best.
+
+Nice. Okay. All right. Let's jump into it. What do we think?
+
+Yeah, we can go in. Kisle is going to join in some time after the washroom, so...
+
+Oh, he just joined. All right, so let me pull up this ticket and then side by side pull up this dashboard.
+
+Yep. Okay, sorry.
+
+Okay. So we had a couple of questions about this CAT UI. Right now I'm in UAT, but it doesn't matter between production and UAT. Doesn't matter for what we're going to talk about, right?
+
+Yeah, yeah, that's right. The same, yeah.
+
+Okay, great. All right. So it's mostly some UI work that we have to do. There are one, two, three, four, five different things that I want to cover. We've written them all down and we're not sure how much of them are possible or what the possibilities are for each of these. So we're trying to understand what we can do and what we can't do. That's why we set up this call, Anand. I wanted to cover these five items. That's pretty much what this call is about.

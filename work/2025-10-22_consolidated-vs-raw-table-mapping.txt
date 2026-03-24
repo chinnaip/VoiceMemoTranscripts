@@ -1,0 +1,1 @@
+So I had this question, right? In the consolidated one, we have executions, allocations, and orders. But in Raw, we have four different tables—orders, allocations, trades, and routes. So how do these map together? Okay, just give me one second. Let me finish up this Excel sheet. Let me also pull it up so I can make changes over here. You're updating sheet two, right?

@@ -1,0 +1,19 @@
+Okay, everyone. Today's lab assignment is already posted in the LMS with a description. According to it, you have to do it. Thank you, Mom.
+
+The file I downloaded from Kaggle is 60 KB. Can someone help? Alright, sir asked us to download from GitHub. What's the size of it? I haven't checked yet. Mine has 891 rows and is 60 KB. That's why I asked. Can you write that down? Yeah, sure. I downloaded from GitHub. It's also coming approximately around 59 KB or something like that. 59 KB? Black, we tried. Yeah, thank you both.
+
+Let me try to download from GitHub. I think it has a total of 891 records. Okay, 891 records, same as I'm getting there too. Yeah, lots of degrees. Yeah, okay, thank you for coming.
+
+Hi, I just joined. What's happening? Yeah, the assignment has been mentioned in the LMS. I can go through it and start doing the work. Okay, thank you.
+
+Is anyone here? Yes? Hi. I just wanted clarification. For linear regression and logistic regression, both the values—is printing enough, or do we need to plot anything? If you plot it, that's good so it's more understandable.
+
+Hey, is anyone on the call? Is the second part of the question doable? Age is dependent and survived is independent. Yes, it's coming. So we're predicting age based on the survived flag? Yes. Okay, that doesn't sound right. Yeah, it doesn't sound right. When I asked the professor in class, he mentioned doing it that way. Okay, yeah, we can still do it. It won't fail, but somehow it doesn't sound fine. Okay, cool. Yeah, not logical.
+
+Because the male will be on the left side. Data is very good. If it just gives survived as 1 or 0, yes or no, can we predict the age? Yeah. Okay, sure. That's the reason you'll get a very low R-squared value. And thankfully, there's another assignment. Mine is done, so I've uploaded it. I intend to show a weak relationship. Yeah, it's like 0.0 something per square. But we need to check whether the problem definition is correct.
+
+I'm dropping off. Is PA there? Yes, yes, okay, you can talk, right? Yeah, thank you.
+
+Has anyone tried using PyTorch for neural networks? Same problem. I didn't have the courage to do that. Happy Christmas! Merry Christmas!
+
+Wow, I never made this. I have a doubt: where do we find the Titanic dataset? This GitHub is there. Is there a link to the repo? You can search for it. Okay, Titanic... the first link you'll find it. Or else I'll share it in the chat. Okay, thank you so much.

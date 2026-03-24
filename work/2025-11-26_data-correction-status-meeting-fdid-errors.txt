@@ -1,0 +1,21 @@
+Very small window that we have between 4:30 AM and 8 AM, which is where some of the risk comes from in order to essentially report this accurately. But at least with current case reporting, what happens is the day after we pick up a lot of the new FDIDs that got reported on the CAT end and have those submitted to essentially resolve some of these 3701 and 3709 errors that come in.
+
+I'll take a pause over there just to see if there's something specific that you want to add in there as well, Julia.
+
+Yeah, thank you for that. Um, I think it will be helpful. That detail was very helpful. Going through in order, though, I just want to make sure that I'm tying the status of each fix and where it stands to each inquiry. So if we take them one by one, not in great detail, but looking at the first one where we have the incorrect data portrayed within Jago—we're asked for an update on the fix and the status of the correction. So that fix, what's the current status of that? Gate open? Is that the one where we sent it in in October, or is it in progress?
+
+No, that's the one that's currently in progress.
+
+That's the one. So we're working on it, but it's in progress. Correct.
+
+Okay. And then, what about the 23,000 historical corrections? Is that still in progress?
+
+I do think it's in progress, but I would need to take a look at some of the previous responses that we've sent over with this 22, 23,000 just to see if it was submitted or not. But I'd have to cross-check this to see if it was completely submitted or if there's something in the filter that investigates what captures this update of submission.
+
+Fair enough. And it looks like we were asked about submitting the corrections for the 23,000 records, and we said we were working on resubmission in the center of CAT prod mirror to ensure no ingestion error. That was the last update we gave, I think, on October 13th, just for background.
+
+Okay, no, it might have been submitted. Again, I want to at least double-check on my side that, you know, it is the exact same thousand that we're talking about.
+
+Sure. And then, for if I followed correctly for the FCIV error—so the second set of questions there with number 3 and 4 on the 3701 error code—that's one that I know you gave the detail on there, but we're working on addressing this, right? Like, we're looking at that now. And there's the issue with front referencing case submissions against the CAT submissions, and this is something we're looking at now, but it's not fixed yet, right?
+
+Correct. So there's two changes to this that we would tend to need to make. One being the pool of reportable monickers that we deduce needs to be more so on a current date perspective as opposed to a T plus one date, just to see what new orders and events were reported. The main challenge here is FIS does the voting at the CAT levels. We don't get the CAT event.

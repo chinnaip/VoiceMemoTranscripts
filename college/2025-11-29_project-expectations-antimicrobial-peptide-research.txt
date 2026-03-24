@@ -1,0 +1,17 @@
+In this semester, you need to proceed with your project or consider a new one. However, you need to consider that this time the number of credits is different. Earlier it was a lower number of credits, but this time it's higher. Accordingly, the number of hours of engagement required for the project will be more than what you invested previously.
+
+So we need to plan our project accordingly. Most of you in the previous semester focused towards the literature review of the work. We studied the literature, but from the implementation perspective, hardly one or two of you completed some kind of implementation. This time, my expectation is that at least you will implement something.
+
+If any of you have a plan today—if you've made a presentation or maybe a one-page document where you're planning to do that particular work—you may present.
+
+Student: Yes, sir, I am prepared. I thought to change my topic because I wasn't confident enough with it, and I wasn't getting much dataset for financials, IPOs, and startup data. So I thought to switch to something where my education belongs, which is biotech-related. May I present, sir?
+
+Professor: You are on mute. Carry on.
+
+Student: Yes, sir. I'm just proposing my idea. Can I share my screen and present?
+
+Professor: Yes.
+
+Student: Okay, yes. So today I'm presenting something. Yes, sir. My idea—I'm just proposing it. Basically, the background is that I recently studied data where we realized that eighty percent of India's population, or rather bacteria, are already resistant to most diseases. And hence, even simple pneumonia-like diseases have become a global threat. So the thought is to bring this project where we can create and generate antimicrobial-resistant models like peptides—AMPs, antimicrobial peptides—where they will be new to bacteria, so that they will prolong resistant treatment.
+
+Actually, in the market, there are already antimicrobial generation models available. But most of them have certain activities and criteria for how we can kill bacteria if it enters our body. There are so many criteria like activity, solubility of the peptide, toxicity towards bacteria, and how much time it will take when we insert it into the bacterial body, how it will react, and its stability. But most of the models I have studied...

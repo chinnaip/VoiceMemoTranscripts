@@ -1,0 +1,29 @@
+Thousands of employees working around the world. So if you want to make a change to our environment, there's a process you need to follow. We call this change management. This process protects us from changes that might be disruptive or are associated with unacceptable risk. It is an ongoing practice of communicating, coordinating, monitoring, and scheduling changes within our global environment. A change is seen as any move, add, or change to hardware, software, or equipment in Jefferies' production environment. As an employee, contractor, vendor, affiliate, or consultant, you are expected to adhere to the firm's change management policy. Failure to adhere to this policy can result in disciplinary action, up to and including termination from Jefferies. So make sure you take on board the advice shown in this training.
+
+Let's get started. Let's look at the change management process at Jefferies. It consists of five distinct steps that need to be followed. Let's look at each one in turn, starting with request for change.
+
+First, Request for Change: Requests for change are logged into the change management system. All relevant information supporting the change must be included.
+
+Second, Impact Knowledge: The change control group will investigate the necessity and validity of the requested change.
+
+Third, Approve or Deny: The requested change is either approved for implementation or denied, in which case the process ends here.
+
+Fourth, Implement Change: Instructions are given to the relevant parties to make the change.
+
+Fifth, Review and Reporting: After the change is implemented, the impact of the change is reviewed and the results reported.
+
+All changes are submitted via the ServiceNow link shown here. All changes to the production environment must be submitted via ServiceNow at https://service-now. All changes to the production disaster recovery environment must have an associated configuration item for the configuration management database in order to be considered for approval, or CMDB. If a configuration item is not present in CMDB, then it must be added before the change can be approved. All application changes will require delivery of testing results as part of the change. A sign-off from a business user will also need to be delivered to change management prior to review by the change control board.
+
+When submitting a change, you also need to provide some information. Take a look at the complete list now:
+
+Start and End Date and Time: A planned start and end time must be specified for all changes being raised via ServiceNow.
+
+Business Justification: A valid business justification is required.
+
+Groups and Locations: A list of the groups and locations affected by the change.
+
+Implementation Plan: The steps involved in making the change.
+
+Post-Implementation Plan: The steps involved to validate the change once implemented.
+
+Backout Plan: The steps to be followed if the change needs to be reversed.

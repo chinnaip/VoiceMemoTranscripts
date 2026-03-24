@@ -1,0 +1,19 @@
+It's configured to this job team. We fit AP trade NRM, JDS fit get aid, AP trade SR. So it's not us who configured it. JDS themselves already had it due to some other requirement, I guess, from a trade normalisation perspective. And that's why we're essentially able to just pull it on a daily basis from there.
+
+Now, this network share has broad MIS files. Let me see if I can even see it. Yeah, a little bit better. But if there is a folder here called prod LMNO, yeah. So I don't even know where this remote file directory is located for broad MIS files. The only overlap is we don't know what is a DSS thing for that. This might be the deepest thing. This might be their own internal. They might have a whole path. Yeah, it is this, right? DDVS, so that might have a DDFS link. This is like a mount on the UNIX part, and then there is a Windows part, I think, for it.
+
+I see, let's see. Maybe I don't have access or the account and stuff doesn't have access on my side.
+
+Oh, you're saying basically this folder?
+
+Yeah, this folder is the local folder where they'll pull the file. It's not where... but then they have a mount on the inside. We don't know what the mount is. They just still have a mount. Yeah, they could. I mean, what I can think of is we might have to create a mount on our side. So I know how to log into this network share based off the credentials and I can get the credentials. I can try to see if I'm able to login through JustConnect using JDS, going to this folder and at least see if there's a trading position file. If there is a trading position file, then it's as simple as us putting an entry over here and then creating a TWS job to actually call out and get this data.
+
+Okay, did you just want to do that for us?
+
+Nowadays, JDS will make us do it, essentially. They'll give us the details of what we need to do. Let's move to our current call or agenda anyway.
+
+Yeah, I have to go to a call. So I can just ask one question. Are we making any releases this weekend? Did we do any release this weekend?
+
+No, we saw nothing last weekend. We have one for this Wednesday coming up.
+
+Yep, so yeah, that's the same with the UI changes. The state values are changing and then the assumption date too. Yeah, mostly. And then the category internal external and then partially inclusion exclusion. So it's like four different types of things. The streamlining all the status values across stage versus the common thing together, plus the name changes for some of these, like current stage stage that changed and plus include exclude. I did some extra work on that.

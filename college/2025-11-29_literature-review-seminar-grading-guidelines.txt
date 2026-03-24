@@ -1,0 +1,11 @@
+You will have 15 minutes for the seminar. For the second seminar, you have to give it to your supervisor or mentor. Your supervisor is free to do that, and I will have the supervisor enter their part of grading for one component of the course. 25% of the total grading weightage will be given to your supervisor, taking your presentation, looking into your literature review report—the final version that you submit—and also present, which you would show. So that is about 25%. The remaining 75% we are going to evaluate within the class throughout the semester.
+
+In the first seminar starting on December 3rd, we talked about the different tools—the AI tools that are available for literature and research purposes. I covered the initial steps of the research process: topic exploration and scoping, and then the literature review, and possibly any other generative AI tool that you're using for generating the literature review report. This is one part.
+
+Second part: there are many generative tools for preparing the slide, and you prepare a PowerPoint page around whatever initial literature you have explored. It can even be a single slide just to show what steps you followed for doing this work.
+
+For example, my broad topic was in computer vision. I started with a ChatGPT tool for topic exploration and asked it to generate 10 research topics in the computer vision area. It listed the topics. You just briefly go through that with brief notes and elaborate on two or three topics. Then you finally come up with one particular topic, and that is where you're going to proceed further with your literature review.
+
+But what I want all of you to do is, since you've already done phase one of the projects, you can build on that experience. This literature review course should be an extension of the research literature in the report that you prepared. Do a further, deeper literature review using this AI tool.
+
+Submit the report before the end of the second seminar. As I told you in the previous session, if you're able to get a literature review report ready for submission for publication, I think that will deserve a top grade for you. My interest is that all of you should aim for that.

@@ -1,0 +1,17 @@
+Good evening, everyone. Dr. Akaran, good evening. Hey, girls. Good day.
+
+So, mom, did you involve Vinay for the development? Actually, I pinged him. He was busy, so he replied back to me around 3:30 PM. He was saying he was working and was stuck with Japanese deliverables. So I asked him to download PostgreSQL. I asked him to download PostgreSQL and check whether we can connect with Tableau or not, and how we can do that and everything like that, so that he can also play with that and become used to it.
+
+Okay, got it. Yeah, I'm fine. Okay, Vinay is also here now. Hi, good evening. Yeah, how are you, please? Hi, okay. Hey, mate.
+
+Okay, so Manda, what's the next step? Like, you are already developing it now, and whenever you already have the PostgreSQL access now, right?
+
+Yeah, so I have installed PowerBI Desktop and PostgreSQL Windows version is installed. Okay, so you just need to go and check the PowerBI-PostgreSQL compatibility, and I think you already have the dashboard link that I shared in the group, right? You can play around with it and try to decorate it as we discussed yesterday. So just try to do it. Rather, I am also doing it slowly. So I'm planning to do it over the weekend, right? I mean, yesterday and today I had Jira-related deliverables, so I could not.
+
+Yeah, that's fine. I talked to someone about it. This week seems to be quite busy for you and Mumsy. So that's fine.
+
+So right now we're working on this one A, right? And we have closed this or we are close to closing this. Sample data collections analysis is downloaded, PowerBI view is created, and that is done. Load exceptions and intraday ledger into PowerBI views is also done. Okay.
+
+Yeah, so one thing that we'll have to do here is, as I mentioned yesterday, basically, I saw some executions also within this. I think Siddharth had marked some executions as exceptions, but basically this is a short sale order marking validation tool. So we're only marking orders that are wrong. So we'll only have to change the exceptions to be for the orders. So I'll have to take a look at the sample data once again to just make sure that we're only flagging orders as exceptions and not executions. Executions are only there for us to build the ledger with, you know, at what time is what position and stuff.
+
+Yeah, I saw your message, Vamsi, yesterday, but I thought this was not for me. This was for Siddharth only. So what do you want me to chase? Yeah, like I can take a look at it and take a look at the sample data. It should be a fairly quick fix, but I'll have to spend some time on it just because we have multiple symbols across various days, right? And I regenerated it using the tool. Yeah, I think it would make sense if we...

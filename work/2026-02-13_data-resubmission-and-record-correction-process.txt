@@ -1,0 +1,15 @@
+We just need to resubmit if something went wrong. In that case, you just need to delete those records and replace them with what the upstream is sending and somehow play the process through again, right? In principle, that works.
+
+Number 2 is where if, let's say, any mapping or cross-reference within the platform or in our transformation logic was wrong. Theoretically, the system should automatically allow you to correct the reference or any mapping or logic inside the platform. Then you say, "Here are these records. Can you replay them through the system?" Which in my mind should automatically set a delete event internally and an insert event, right? Automatically, without you having to do it manually. But I don't know how many cases that happens, and we need to go into the complexity of building that automated logic. Do you know what I mean?
+
+Yeah, yeah. So just one clarification, at least on our side from a database perspective, our plan is not to delete any of the records. So the delete is mostly just—I mean, delete as in, if you know something here went wrong and it's errored in a Finra route, but that's because my local logic was incorrect. In which case, you'll have to put in a bug fix to correct your logic in the backend. But once that's been tested, what are you going to do, right? Your next course is you could theoretically, I don't know if Finra does it or not, just say replay this message. Now I've corrected this record. It should internally generate a delete event or—not delete as in—me nor whatever. I get it, I get it, yeah. But I think that's more of a stretch. I don't think we are planning that way. It's more decision-driven by what I know I need to do: create those events and replace them with these events, correct?
+
+Correct, correct. Yeah, yeah, we are not going to replace this. We will create versions.
+
+Yeah, yeah, yeah. But I mean, our history—yeah, yeah, no, theoretically, that's what I sort of was saying. Okay, yeah. No, correct. That is correct, yeah.
+
+And what other scenarios? Let's say if the status of a record is still pending in Finra and you try to resubmit. Can you correct that or not?
+
+So when you say the status in Finra is pending, you're talking about if Finra is in the process of submitting, and then we correct it in the middle?
+
+Yeah, yeah. Not currently, because at least the way Finra's process works, everything is kind of in batches. So let's say for whatever reason we submit our initial batches at 11 PM, and at 2 AM we have some control or someone reaches out saying that these 3 orders were wrong. We could send those records over to Finra in terms of the correct values, but their batches would have already kicked off.

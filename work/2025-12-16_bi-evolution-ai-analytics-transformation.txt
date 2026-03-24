@@ -1,0 +1,13 @@
+You know, I believe everything we do in IT is really about delivering user experience. Whether it's automation, productivity gains, or insights into data. And now in the age of AI, user expectations have significantly shifted, which directly relates to user experience.
+
+Because expectations have shifted, what used to be traditional BI—which is basically what users were asking for in the late 90s and early 2000s—was to analyse the data. That was mainly a centralized function: static dashboards that we were building with heavy IT-driven delivery.
+
+Then came Gen 2, which is essentially users asking "help me analyse the data." That's where self-service came into play with the concept of the data warehouse, the lake house, the compute power, and cloud computing driving the journey. Of course, with increased processing power.
+
+But now, what users are asking for is generative AI BI, or what we call modern analytics. The question they're asking is "What insights can you find for me?" With AI/ML power, natural language processing, and automated insights generation, the space of BI is recording significant progress.
+
+However, the basics aren't going away, especially when you need data with 100% accuracy. For inventory reporting, daily reporting where you need 100% accuracy, there's still a traditional BI need in terms of intuitive dashboards and self-service. Users are asking for more real-time data and right-time accessibility. And at the same time, what's growing significantly is advanced analytics in the form of AI/ML, integration of structured and unstructured data, and collaborative workflows. On top of that is IT tooling and automation, which is crucial for proper monitoring and the ability to scale up and down as needed.
+
+Given this kind of requirement, that's why we chose Sigma as a tool. It's a size-appropriate product, vendor-based task, cloud-native. Essentially it's an excellent platform. Even if you do a search or ask a question on a copilot or ChatGPT today, a significant percentage of people are using Excel. So we needed a tool that helps in the transformation journey, moving from Excel to AI.
+
+What Sigma provides to us is a cloud-based enterprise analytics platform. It has the ability to live query data without storing any data behind the scenes. It uses Snowflake compute power, so you can see data in real-time. It has self-service features. So the traditional BI aspects—users can build their interactive dashboards. We're empowering the users and truly democratizing data by giving full power to the users.

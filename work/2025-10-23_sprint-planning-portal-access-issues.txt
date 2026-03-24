@@ -1,0 +1,17 @@
+And a few tickets would become part of the second milestone. Yeah, I mean, that's basically what sprint planning is—planning ahead of time. But we've obviously really struggled to do that, so I'm just taking a very casual waterfall approach. And if that eventually develops into a sprint plan where we know exactly the deadlines for each of these segments three months in advance, then we should definitely adopt that. I totally agree. But because we're still struggling to do that, I'm just taking a very casual waterfall approach for now.
+
+I am taking over the screen, please. Sorry, I didn't realize. Good morning. Yeah, good morning. So radio updates? So if you go to the updates section, I added something. But before that, if you can help me with this—there's a ticket where I'm not able to log into the FS portal. For those events, we had to provide them the details for 31 accounts. Their main thing is they call them symbols, right? They're customers, their accounts. They're not symbols. They're FD IDs. That's their own thing. So let's move on from that. But we can go through the actual photos and how you can kind of go through and get the details over here. We can do that separately—just me and you after the call.
+
+Yeah, we can do it. But you know, I'm not able to access it. I mean, whatever you told me yesterday, I did not receive any communication after that. No email, nothing.
+
+Okay, I say instead of me, then, I think you can follow up with that CX support and the compliance reporting manager and tell them that you are having access issues and you're not able to log in. They might be able to force a refresh or reset and send you the details. Because all your details might be complete, and Gupesh has been on it. But I will raise a separate ticket.
+
+Okay, if you mention it?
+
+No, no. If you've already mentioned it, it's fine. Right? More than anything, what we can do is you could maybe just sit down with Bidisha and have a look. At least she has access to it.
+
+I had a message with Isha and I actually locked off yesterday. Just clarifying—can you think my screen sharing this PPT? So I've changed these to tapes to Friday, tomorrow. So first is the client walkthrough. Like, have you confirmed the delivery mechanism yet?
+
+No, so clients look through what our client is. We're going to anyway just push it to production this coming Wednesday, right? With Aisha working on the PR and the change request, but we are going to go out with this Wednesday only—this coming Wednesday. And we still need to have them provide us some updated files, right? Just so that we can compare with those updated files. So I sent a note out to him, but we're waiting on getting those files. So the second he gives those files, we essentially run it as a production flow and get the file generated and then have him actually sign off and finalize it.
+
+Okay, to confirm with you, any PR or any change...

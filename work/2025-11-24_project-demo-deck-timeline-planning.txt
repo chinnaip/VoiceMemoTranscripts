@@ -1,0 +1,13 @@
+Hey everyone, good evening. So I'll just have a quick overview of the project. So there's a short sales project. We already have this equipment and industry environment set up, and Vamsi is the lead for that. He'll be explaining everything about the project, how we have to go through it, what materials we have for reference, and how we'll start.
+
+Right now, I just spoke to Vamsi some time ago. What we've decided is that in one and a half to two weeks, maybe we'll get the demo part ready, or possibly one and a half weeks, and the PPT ready so we can start approaching clients. And in a maximum of three weeks, we'll get the project to completion.
+
+I'm handing it over to Vamsi now. But before we get into that, I only spoke to Utkarsh about this last week, and I think you were also caught up, so I didn't really include you. Just to give you an idea of what the timeline is and how we'll approach this: In short, I want to expand further on what I said. The first thing we need to do is come up with the demo deck, which will explain what exactly the project does and how it works. Utkarsh and Vamsi, I think you guys can sit together and put that deck together. Me and Shadad can pitch in and help you guys during our hours, but mostly try to put those things together as soon as possible. That is step one.
+
+Step two is the demo perspective. We need to make sure the project is ready. By that, I mean having the project ready in a way that we can demo to clients functionality-wise. It doesn't have to have all the data, but we need to make sure it has enough to show all the features and functionalities of the project. Backend-wise, it may not be fully done, but at least on the frontend when showing to clients shortly, it should be ready to show all the features we want to highlight.
+
+Then step three is having the whole project ready, fully functional with databases, backend, everything done and foundationally built up properly. That's when we'll call the whole project done.
+
+Vamsi can fill you guys in on what the project is exactly. I'm sorry, Vamsi, you have to go over this again, but hopefully this is the last time you have to explain all of this.
+
+I confirmed with Archan. We had a couple of questions. One was the timeline—like Utkarsh said, two to three weeks is what we're looking at. And what platform are we building this on? To answer that, we don't really need to build something from scratch like we did for Cat and EBS and everything. We just need to build this out on RBI.

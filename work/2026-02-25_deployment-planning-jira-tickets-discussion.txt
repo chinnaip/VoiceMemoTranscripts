@@ -1,0 +1,27 @@
+After that, we'll start our multi-deployment. Once the deployment is done and we do our initial checkouts, I think after that it will be closed. So, which ticket are you going to pick up next? I think right now you're working on 2084 on the 4 scripts. Apart from that, on the plan side, which is the next ticket you're picking?
+
+Yeah, I am picking 2069.
+
+You are going to pick 2069? Oh, you're not paying attention. I already have market time in servers. 69 is dependency on 67, right?
+
+No, I think we can go forward. We have some data for one of the dates.
+
+Yeah, I think 9 has dependency on 6, 7. No, but I think since we did some testing, we have some data, so you can try out now with that particular data I've mentioned in the Jira. I was thinking that too. I have created the proc like a base one, but I still have to do testing and I still have to check. But I was thinking if Mamta can help me out in that, because I think there are a lot of things in her perspective that might help me. So I can help her in the 69 ticket also so we can do this part.
+
+Yeah, sure. Can you also join us? Can I see which one is 6, 7? Just go to the top. You said that I was working on yesterday. Okay, this is the importing of records that will go into Snowflake for the corrections.
+
+Okay. And what is 2069? Is that the next part where we export from table to CSV after overlaying?
+
+But if you want, we have data already which you can use to export and validate. We have some data for the ninth.
+
+Oh yeah, actually I just had... But yeah, 2067 has to come first because this is the actual importing of the records into Snowflake. And then the next part would be 2069, which is merging the correction PDC with the current PTC and treating, creating... Yeah, yeah.
+
+Okay. I'm okay with both of you working together on 2067 because I think that one will also be involved. Then also, I think there are 2 different components, right? One is the actual importing of the correction CSV that someone puts out, and then the other is actually doing some base validations for those. So, I'm okay with both of you essentially working together on that. Ultimately, it'll also lead into 2069, which is also going to have 2 components. One is the actual merging of the PTC for the corrections. And the other will be the export of it into AWS and then ultimately S3 as well. Sorry, S3 and then Unix as well.
+
+Yeah, we have to, you know, see. We need to have a Jira for low draw as for like three. I need to... someone is supposed to create it. So some of these we can parallelize, explore and test out things.
+
+Yeah, yeah. I think right now let's move or like take it by ticket and then we can...
+
+Yeah, makes sense. Talk about additional details.
+
+Sure, sure, sure. So for 2067, Vasilyev and Mamta, so you guys will be working today only.

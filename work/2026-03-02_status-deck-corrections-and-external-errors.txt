@@ -1,0 +1,19 @@
+So, last week Manan, we spoke that you would put together the status deck for like 5 minutes when we talk about that. Do you have that?
+
+So that is what I don't have right now. I don't think I have it as of now. But I've started the work, so it will be done. It'll take another day or two. I'm actually reaching the entire thing, like all the CAT thing also for the monthly call. So I thought as part of that, I will just get it together. But it'll take a couple of days more.
+
+Okay. I see we've also got Prabhakar on the line. Prabhakar, yes, this morning. Hey, good morning. Sorry that I missed the Eric Corrections call. Hopefully everything is going smoothly.
+
+No, not bad. It went well. Some bugs? Yeah, those are good. I mean, bugs were normal, but it was a good workflow, so pretty much everyone was happy with the progress he made. We did make some releases also last year, and still we have a few releases planned after the release freeze also. It was pretty convincing.
+
+Nice, that's good. Yeah, we have a catch up with him tomorrow again to sort out some of the future work on the way we want to show things and stuff, based on some of the questions that he's been asking, Manan. But yeah, so we discussed that. How do we correlate stuff and show the latest status? Like, we have multiple versions of submission status. If you just try to randomly...
+
+I don't know if this will be able to help us. First job, let me just ask.
+
+No, no, I have that in plan already, Manan. So by the way, right? So the thing is, whatever you see, you'll always see the latest version, the status of it.
+
+No, no, but that is what I'm trying to tell you, Prabhakar. And one important thing which we have not accounted for in this entire correction piece is that most of the errors, like these 8003 errors, what happens is, say for example, these are errors with JP Morgan, right? So now if JP Morgan deletes that particular event or something, right? Then it will be resolved. Okay, but then there was no action on our end. Okay, now we have not taken those kinds of records into account, right? By this logic.
+
+Okay, yeah. I mean, external ones are not in our scope, okay. I think if we have some feeds on that, we should be able to correlate.
+
+That is what I wanted, like, Prabhakar can help. If there are some errors, right, which I have errors with, like, incline income is going to delete something, say we are going to file a connection after 620 days. Now, how do we, apart from say official communication on email which we get, is there any other way that change is reflected? Why don't we have an option here to close things out manually, right? Like, why can't we just put in, like, you know, a user, something that says, like, no change, but close out since counterparty will make corrections, right? Like, they could add a comment and change the status themselves, rather than actually submitting a correction.

@@ -1,0 +1,19 @@
+We can leverage the change fee window until the first week of September. In the meantime, we should ensure that we design the architecture and its functionality, especially the architecture design and Spain work, which we can finalize within the next week and a half to two weeks.
+
+I went to river Soana. If you don't mind, let me go back to the plan. Okay, so I'm going to go through it in just five minutes.
+
+First, integrate finger static files. You actually don't even need to open that one up. It's super obvious what we're talking about here. It's just a ticket: Fender simples list, Finer on list, any other files you want. It's a great thing we could do as part of this ticket, or if we want to do it as multiple tickets.
+
+Next one: Design sourcing data architecture and magics. This is where we start the design, and believe it or not, I think it's a little bit heavier than we're really respecting. So we need to develop designs for the ETO pipeline that includes data artifacts such as tables, procedures, and tasks, which include the raw PTC cast data and new error files. I know that you already have an EDL diagram. Sorry, entity relationship diagram, ERD, sorry, not ET. So basically, what I'm suggesting here is that we finalize that ERD, as well as design the linkage between PTC data, CAD data, and error data, right?
+
+So now this is forward back to front, right? As a result of this linkage, we're going to have to consider several things, and it's actually split up across a couple of sessions. But on top of building that ERD, we also need to know what artifacts will be created as a result of the liquification of water. Like, in terms of, let's just call them the curated items that are actually going to feed stuff, right? Is that what you're saying?
+
+Yes, exactly. How many views, how many tables? Which views are going to feed those views? And all of that, and how many procedures are we going to have to create as a result? That's what I'm saying. That's what we should include as part of this ticket.
+
+I agree, I agree. But I think we can start on this ticket right now, in terms of just planning it and setting it up.
+
+Agreed. Okay, so next, I would say we take a proper two to three weeks on this and really nail it down. Have consistent discussions with Djit, taking it through multiple iterations as we keep giving them feedback until we are all on the same page while making sure that we're not trying to overcomplicate stuff. We're getting basic functionalities and we're using it, right?
+
+Yeah. Guys, let's actually put an owner on this ticket. If this is a priority, then if somebody is the owner, he or she will take care of it. Just in the moment on her, just in the moment. Okay.
+
+All right, then after that, so that's the architecture. So basically, you, and then here, design units test for ER scenario, right?

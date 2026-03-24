@@ -1,0 +1,13 @@
+Good evening, good evening. Prabakan, are you ready? Yes, sir. Good evening, friends. So this is my literary experience and the journey I went through. I just want to share with everyone and collaborate and get any help from you folks as well.
+
+So my area of research was cat error detection root cause analysis in broker-dealer systems. In these systems, they have to report every single event they do in terms of orders or executing anything related to allocating assets to people. Everything has to be reported to FINRA, the regulatory governing body. Since transactions happen across multiple people and every broker-dealer has to report to the regulator, there's enormous volume. For example, the firm I work for generates about 200 million events a day. So this is huge in scale.
+
+There is a lot of scope for errors because many parties are involved in the whole journey. This project attempts to help with that.
+
+So what is FINRA? It's one of the regulatory bodies. All the broker-dealers and banks in the US are members of this. This body is governed by the US Securities and Exchange Commission, or SEC. So that's the actual governing body, and FINRA supports whatever goals they have with the industry members. All the investment banks and broker-dealers have to be members and send data to it, and they deal with all the regulatory reporting and compliance aspects.
+
+There are many errors reported. Whatever events we report to FINRA, they come back with so many errors, and we need to really solve them within three days. That's a very short time to fix issues. So we need to proactively detect errors and do root cause analysis much faster so we don't get into issues of reputation damage, fines, and other consequences.
+
+My project guide here is Malai Commercial. I work with him on this project. He's my mentor at the academy.
+
+So the main transition here is from reactive error correction to proactive anomaly detection and finding root cause analysis. The objective is to find root causes in complex event life cycle systems in the regulatory financial environment with such high volume.

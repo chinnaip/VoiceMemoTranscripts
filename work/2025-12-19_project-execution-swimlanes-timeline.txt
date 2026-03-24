@@ -1,0 +1,13 @@
+Dense fog. No, no, I'm trying to fix my camera. Where are you, Manan? Are you back to this thing or are you going to go get tea? No, I'm in Gurgaon only. I'll go to Wadi like before Christmas. Okay.
+
+Hey, good morning everyone. Good morning. Thank you. So Manan, did you get a chance to work with for Bochran and tidy up a timeline? Yeah, everything is ideal, that's good. We have the timeline and the progress. We probably need to do one more discussion later during the error correction call. We'll discuss that as well, yeah.
+
+But overall, we will share the view of what the plan is and where we are at, Arjun and Yishus. Okay, so just give it a brief here before. So to how we plan to execute this entire project is basically, if you plan to keep these three swimlanes, and the combination of these swimlanes will help us achieve what we want to achieve. The first one which we were actively working on is getting everyone on the teams.
+
+So we have submissions view and metrics. Yes, yeah. Two, so just to give you a bit of context, I think we explained this last time also, that this entire project will be divided into three swimlanes. Right, the first one would be designing the submissions summary dashboard, and the second is the validation engine wherein now we go about forming logics and different kinds of areas and everything. And the third is how we display everything, which is the metrics and monitoring.
+
+Like now, so the last quarter's focus was on the submission summary view page. So everything which you see in green, right, these are the things which we have already completed. Okay? And anything which you see in orange, so these are the things which we actually picked up, but then right now we don't require them. No, it's not required actually.
+
+Yeah, so I can explain it. So the submission view and metrics frame here is right. So we had built a API for submission status and the corresponding UI to see that information, which will have the CAT PTC error everything linked together. Now with this data, we can go ahead and build a metrics dashboard with metrics information about the daily matrix, the volumes and information. That's one of the epics that we can pick up later which we haven't started anything on that. That involves Sigma and stuff.
+
+The other part to it is, you know, we took a single line, a partial thread where we try to show everything related to final errors, and we haven't included the validation error. The original idea was signed to include validation error, but then without, let's complete this end to end with final error, and then if all works fine, then we go ahead and plug in validation error.
