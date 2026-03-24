@@ -1,0 +1,15 @@
+Yeah, I think he joined previously, but I was only on call, so he dropped. Let me ping him. If you can also bring Mantavadisha, that would be good. If they don't join in, say 2 minutes, then I think we just go ahead and get started.
+
+So, what Siddharth has done now - how much is it aligned with the validation engine? How much is it aligned with what we're supposed to do? The validation engine part is very specific to the firm's business. Right now, not really at all.
+
+You can see he's built out a whole level one validator. We're not trying to overhear you. You can rely on the center of feedback to get the address and details, and facilitate corrections based on what needs to be corrected. What Siddharth has built out is probably more powerful than the stuff we're building out over here.
+
+I'm just wondering - is there anything we can use? You know, we know how to take it in. I'm just wondering if there's some overlap. If we can tune that a bit to use it here, that would be good.
+
+No, yeah, not directly because the infrastructure and the way stuff is architected over here - there is a key difference. No, I mean, if you decouple that part into pieces where we can reuse that part here, we can do that too. If that's completely built as a service or API, we can split it into a module and then an API. That would help.
+
+Maybe we could, but even the ones on the back end, right? They haven't been tested with actual production data. They've been tested with synthesized data, but I think we should take this opportunity to validate that also in other ways, if you get what I'm saying.
+
+I get what you're saying, right? It would be a good way for us. So again, no, we tested it with real data and made one. Yeah, that's a value for what they have for already. I want to bake it a little bit more, at least on our internal side first. Then see if we can, you know, the problem is it's going to be a good amount of investment on our side upfront to onboard new people and test it out. And even if Jeffrey's - they'll want to see something they can get out of it, right?
+
+No, for them, it is the validation engine we are building for them, which is agreed upon. So we probably wouldn't have the UIPs what we show there, right? What I'm saying is, the core part which validates with the rule - if you decouple that on our side, we can pull only that part.
